@@ -13,6 +13,10 @@ app.get('/api/greet', (req, res) => {
   res.json({ message: 'Hello, welcome to the Express API!' });
 });
 
+app.get('/api/welcome', (req, res) => {
+  res.json({ message: 'Welcome!' });
+});
+
 // Set the port
 const port = 50000;
 
